@@ -23,19 +23,25 @@ The project is built using Flask for the backend and HTML/CSS/JavaScript for the
    cd AI_Art_Generator
    
 1. Create and activate a virtual environment (recommended):
-python3 -m venv venv
-source venv/bin/activate  # macOS/Linux
- #or
-venv\Scripts\activate     # Windows
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # macOS/Linux
+    #or
+   venv\Scripts\activate     # Windows
 
-2. Install required packages:
+
+3. Install required packages:
+   ```bash
    pip install -r requirements.txt
 
 ## Usage
 
 1.Run the Flask app:
-  python app.py
+   ``bash
+   python app.py
+ 
 2.Open your web browser and navigate to http://127.0.0.1:5000.
+
 3.Enter a text prompt in the input field and click "Generate Art" to see the AI-generated image.
 
 ## Contributing
